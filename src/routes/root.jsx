@@ -5,7 +5,11 @@ import ItemList from "../components/ItemList"
 import Stats from '../components/Stats'
 import Form from '../components/Form'
 import ItemData from '../data/ItemData'
-import AboutPage from './AboutPage'
+// import AcesData from '../data/datavariables'
+import AcesItemList from '../components/acesItemList'
+import AcesVariables from '../data/acesvariables'
+import VariableList from '../components/variableItems'
+// import AboutPage from './AboutPage'
 
 
 export default function App() {
@@ -33,6 +37,20 @@ export default function App() {
                     item = {item} 
                     handleDelete = {deleteItem}/>
             </div>
+
+            {/* <div>
+                <AcesItemList
+                    acesitems = {acesData}
+                />                
+            </div> */}
+
+            <div>
+                <VariableList
+                    acesvariables = {AcesVariables}
+                />                
+            </div>
+
+
         </>
     )
 } 

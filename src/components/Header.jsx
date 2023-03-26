@@ -17,7 +17,7 @@ function Header( {text, bgColor, textColor} ) {
 }
 
 Header.defaultProps = {
-    text: "ACES Data Heading UI for showing Wyn",
+    text: "ACES Data Heading still working",
     bgColor: 'white',
     textColor: 'red',
 }
